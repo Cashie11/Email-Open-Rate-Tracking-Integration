@@ -1,0 +1,9 @@
+{
+    "name": "Email Open Rate Tracking",
+    "type": "interval",
+    "description": "Tracks email campaign open rates and identifies low-performing subject lines by fetching metrics from MailChimp/SendGrid.",
+    "version": "1.0.0",
+    "entrypoint": "https://your-deployed-service.com/email-open-rate-tracking",
+    "documentation": "https://github.com/<your-username>/email-open-rate-tracking#readme"
+  }
+  
