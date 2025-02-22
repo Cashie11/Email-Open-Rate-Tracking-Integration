@@ -8,7 +8,7 @@
       "app_name": "Email Open Rate Tracking",
       "app_description": "Tracks email campaign open rates by fetching metrics from MailChimp/SendGrid \n(simulated), identifies low-performing subject lines, and sends periodic reports.\n",
       "app_logo": "https://cdn-icons-png.flaticon.com/512/1040/1040230.png",
-      "app_url": "https://email-open-rate-tracking.onrender.com",
+      "app_url": "https://email-open-rate-tracking-integration.onrender.com/",
       "background_color": "#fff"
     },
     "is_active": true,
