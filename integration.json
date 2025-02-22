@@ -1,9 +1,32 @@
 {
-    "name": "Email Open Rate Tracking",
-    "type": "interval",
-    "description": "Tracks email campaign open rates and identifies low-performing subject lines by fetching metrics from MailChimp/SendGrid.",
-    "version": "1.0.0",
-    "entrypoint": "https://email-open-rate-tracking-integration.onrender.com",
-    "documentation": "https://github.com/Cashie11/Email-Open-Rate-Tracking-Integration.git#readme"
+  "data": {
+    "date": {
+      "created_at": "2025-02-21",
+      "updated_at": "2025-02-22"
+    },
+    "descriptions": {
+      "app_name": "Email Open Rate Tracking",
+      "app_description": "Tracks email campaign open rates by fetching metrics from MailChimp/SendGrid \n(simulated), identifies low-performing subject lines, and sends periodic reports.\n",
+      "app_logo": "https://cdn-icons-png.flaticon.com/512/1040/1040230.png",
+      "app_url": "https://email-open-rate-tracking.onrender.com",
+      "background_color": "#fff"
+    },
+    "is_active": true,
+    "integration_type": "interval",
+    "integration_category": "Marketing Automation",
+    "key_features": [
+      "- Periodic fetching of email campaign metrics\n- Identifies campaigns with low open rates\n- Manual trigger endpoint for on-demand reporting"
+    ],
+    "author": "Cashie11",
+    "settings": [
+      {
+        "label": "threshold",
+        "type": "number",
+        "required": true,
+        "default": "30"
+      }
+    ],
+    "target_url": "https://email-open-rate-tracking-integration.onrender.com/integration.json",
+    "tick_url": "https://github.com/Cashie11/Email-Open-Rate-Tracking-Integration/issues"
   }
-  
+}
