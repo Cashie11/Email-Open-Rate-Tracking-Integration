@@ -82,3 +82,12 @@ def read_root():
 async def trigger_task(background_tasks: BackgroundTasks):
     background_tasks.add_task(email_open_rate_tracking_task)
     return {"message": "Email Open Rate Tracking task triggered"}
+
+
+
+from fastapi.responses import FileResponse
+
+@app.get("/integration.json")
+def get_integration_json():
+    return FileResponse("integration.json", media_type="application/json")
+
